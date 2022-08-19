@@ -1,5 +1,53 @@
 .header {
-	color:#800080;
-	font-size: 32px;
+	width: 950px;
+	background-color: #FFC0CB;
+	margin: 20px auto;
+	color: #00008B;
+	font-size: 20px;
 	text-align: center;
+	border-style: outset;
+	border-color:  #EE82EE #D8BFD8 #4B0082 #9932CC;
+	border-radius:10px;
+}
+.h1 {
+	color:#8B008B;
+	font-size: 30px;
+}
+.text {
+	color:#000000;
+	font-size: 16px;
+	text-align: left;
+}
+.name {
+	color: #C71585;
+	font-size: 20px;
+}
+.link {
+	color: #0000ff;
+	display: block;
+	margin: 10px 0;
+}
+.link:hover {
+	color: #FF0000;
+}
+.feedback {
+	width: 950px;
+	border-style: outset;
+	border-color:  #EE82EE #D8BFD8 #4B0082 #9932CC;
+	text-align: center;
+	margin: 20px auto; 
+	padding-bottom: 40px;
+}
+.form {
+	text-align:center;
+}
+.form_input {
+	width: 500 px;
+	background: white;
+	border: 1px solid;
+	font-size: 14px;
+	padding: 10px 4px;
+}
+.kill {
+	font-size: 20px;
 }
