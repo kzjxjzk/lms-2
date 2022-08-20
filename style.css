@@ -12,15 +12,16 @@
 .h1 {
 	color:#8B008B;
 	font-size: 30px;
+	text-align: center;
 }
 .text {
 	color:#000000;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: left;
 }
 .name {
 	color: #C71585;
-	font-size: 20px;
+	font-size: 22px;
 }
 .link {
 	color: #0000ff;
@@ -37,17 +38,52 @@
 	text-align: center;
 	margin: 20px auto; 
 	padding-bottom: 40px;
+	background-color: #FFC0CB;
 }
 .form {
 	text-align:center;
 }
 .form_input {
-	width: 500 px;
 	background: white;
+	width: 400px;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
 	border: 1px solid;
 	font-size: 14px;
 	padding: 10px 4px;
 }
 .kill {
 	font-size: 20px;
+}
+.form_button {
+	width: 400px;
+	background: #C71585;
+	padding: 10px;
+	font-size: 14px;
+	border:0;
+	color: white;
+}
+.area {
+	width: 390px;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid;
+}
+.select {
+	width: 410px;
+	display: block;	
+	margin: auto;
+	margin-bottom: 10px;
+}
+.img.background {
+	min-height: 100%;
+	min-width: 640px;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
