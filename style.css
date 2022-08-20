@@ -23,11 +23,14 @@ body::before {
 }
 
 .col {
-	
+	width: 480px;
+    height: 100%;
 }
 
 .inner {
-
+	display: flex;
+    align-items: start;
+    height: 450px;
 }
 
 .header {
@@ -50,7 +53,8 @@ body::before {
 	color:#000000;
 	font-size: 18px;
 	text-align: left;
-	
+	margin-left: 20px;
+	margin-right: 20px;
 }
 .name {
 	color: #C71585;
@@ -64,15 +68,11 @@ body::before {
 .link:hover {
 	color: #FF0000;
 }
-body {
-		
-}
 .feedback {
 	border-style: outset;
 	border-color:  #EE82EE #D8BFD8 #4B0082 #9932CC;
 	text-align: center;
 	margin: 20px auto; 
-	padding-bottom: 40px;
 	background-color: #FFCBD8;
 	border-radius:10px;
 }
